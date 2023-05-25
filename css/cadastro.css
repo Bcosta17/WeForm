@@ -29,6 +29,28 @@ span, .title > a > i {
   font-weight: 400;
 }
 
+.col-right > form > .select-div > select {
+  appearance: none;
+  padding-left: 20px;
+}
+
+.col-right > form > .select-div {
+  position: relative;
+}
+
+.col-right > form > .select-div::after {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+
+  font-size: 22px;
+  content: '\f107';
+  font-family: 'FontAwesome';
+  font-weight: 600;
+  color: #35E6E9;
+}
+
+
 .col-right > form, .col-right > form > div {
   display: flex;
   flex-direction: column;
