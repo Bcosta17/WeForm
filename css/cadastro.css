@@ -1,0 +1,61 @@
+* {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+span, .title > a > i {
+  color: #FF5678;
+}
+
+.col-right .title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.col-right .title > a > i {
+  font-size: 30px;
+  margin-right: 10px;
+
+}
+
+.col-right .title > h2, h2 > span {
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.title > h2 > span {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+.col-right > form, .col-right > form > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.col-right > form > label {
+  margin: 10px 10px;
+  font-weight: 400;
+  
+}
+
+.col-right > form > div > i {
+  position: relative;
+  left: 499px;
+  bottom: 40px;
+  color: #35E6E9;
+  font-size: 24px;
+}
+
+.col-right > form > button {
+  background: #35E6E9;
+  color: #FFF;
+  text-decoration: none;
+
+  font-size: 36px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  margin-top: 15px;
+
+}
